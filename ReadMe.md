@@ -24,6 +24,7 @@
  - ros2 launch basic_mobile_robot basic_mobile_bot_v3.launch.py (robot_localization[IMU & Encoder wheel])
  - ros2 launch basic_mobile_robot basic_mobile_bot_v4.launch.py (setup LIDAR)
  - ros2 launch basic_mobile_robot basic_mobile_bot_v5.launch.py (slam & navigation)
+ - ros2 launch basic_mobile_robot basic_mobile_bot_v5.launch.py -s (show Arguments)
 
 # Command
  - ros2 run rqt_robot_steering rqt_robot_steering --force-discover (move robot)
