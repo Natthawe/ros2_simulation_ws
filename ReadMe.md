@@ -32,7 +32,7 @@
 
 # Know How
  - Costmap_2d: [Costmap_2d_wiki](http://wiki.ros.org/costmap_2d) [Costmap_2d_nav2](https://docs.nav2.org/configuration/packages/configuring-costmaps.html)
- - Global costmap: This costmap นี้ใช้ในการสร้างแผนระยะยาวสำหรับสภาพแวดล้อมทั้งหมด เช่น การคำนวณเส้นทางที่สั้นที่สุดจากจุด A ไปยังจุด B บนแผนที่
- - Local costmap: This costmap นี้ใช้เพื่อสร้างแผนระยะสั้นเหนือสภาพแวดล้อม เช่น เพื่อหลีกเลี่ยงอุปสรรค
+ - Global costmap: Costmap นี้ใช้ในการสร้างแผนระยะยาวสำหรับสภาพแวดล้อมทั้งหมด เช่น การคำนวณเส้นทางที่สั้นที่สุดจากจุด A ไปยังจุด B บนแผนที่
+ - Local costmap: Costmap นี้ใช้เพื่อสร้างแผนระยะสั้นเหนือสภาพแวดล้อม เช่น เพื่อหลีกเลี่ยงอุปสรรค
  - ใช้อัลกอริทึม AMCL (Adaptive Monte Carlo Localization) เพื่อระบุตำแหน่งของหุ่นยนต์ในโลกและเผยแพร่การแปลงพิกัดจากแผนที่ ไปยัง เฟรม Odom
  - AMCL: ระบุตำแหน่งของหุ่นยนต์ในโลกโดยใช้การสแกน LIDAR โดยการจับคู่ข้อมูลการสแกนแบบเรียลไทม์กับแผนที่ที่รู้จัก [amcl_wiki](http://wiki.ros.org/amcl) [amcl_nav2](https://docs.nav2.org/configuration/packages/configuring-amcl.html)
