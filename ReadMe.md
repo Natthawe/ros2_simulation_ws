@@ -7,7 +7,11 @@
  - 
 
 # Add the Path of the Model to the Bashrc File
+ - source /opt/ros/humble/setup.bash
+ - export ROS_DOMAIN_ID=99
+ - export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
  - export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/natthawe/ros2_simulation_ws/src/basic_mobile_robot/models/
+ - export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/natthawe/ros2_simulation_ws/src/basic_mobile_robot/worlds/basic_mobile_bot_world/
 
 # Gazebo
  - killall gazebo
